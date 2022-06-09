@@ -1,0 +1,20 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.md{
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(171, 250, 171);
+    padding: 30px;
+    width: 50%;
+}
+.md1{display: none;}
+.md2{display: none;}
+
+.md button{
+    margin: 15px;
+    padding: 10px;
+}

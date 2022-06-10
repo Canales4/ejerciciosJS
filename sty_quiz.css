@@ -11,8 +11,9 @@ body{
     padding: 30px;
     width: 50%;
 }
-.md1{display: none;}
-.md2{display: none;}
+#md1{display: none;}
+#md2{display: none;}
+#md3{display: none;}
 
 .md button{
     margin: 15px;

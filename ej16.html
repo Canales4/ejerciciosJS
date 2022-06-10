@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Ej</title>
+    <link rel="stylesheet" href="sty_ej16.css">
+    <script src="ej16.js"></script>
+</head>
+<body>
+    <fieldset class="ad">
+        <legend>Add Item</legend>
+        <button class="push" onclick="push()">push</button>
+        <button class="unshift" onclick="unshift()">unshift</button>
+        <button class="insert" onclick="insert()">insert at</button>
+        <input type="number" id="n"/>
+    </fieldset>
+    <fieldset class="rm">
+        <legend>Remove Item</legend>
+        <button class="pop" onclick="pop()">pop</button>
+        <button class="shift" onclick="shift()">shift</button>
+        <button class="remove" onclick="remove()">remove at</button>
+        <input type="number" id="n1"/>
+    </fieldset>
+    <div class="arr">
+        <p id="arrPrint"></p>
+        <script>
+          let arr = ['🥼','🕶','🎩','🩰'];
+          document.getElementById("arrPrint").innerHTML = arr;
+        </script>
+    </div>
+</body>
+</html>
